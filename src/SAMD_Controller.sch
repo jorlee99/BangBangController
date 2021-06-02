@@ -1,0 +1,1694 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A 11000 8500
+encoding utf-8
+Sheet 2 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L dk_Embedded-Microcontrollers:ATSAMD21G18A-AUT U101
+U 1 1 6053BA1C
+P 3100 3000
+F 0 "U101" V 3000 3100 60  0000 C CNN
+F 1 "ATSAMD21G18A-AUT" V 3200 3100 60  0000 C CNN
+F 2 "digikey-footprints:TQFP-48_7x7mm" H 3300 3200 60  0001 L CNN
+F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en605782" H 3300 3300 60  0001 L CNN
+F 4 "ATSAMD21G18A-AUTCT-ND" H 3300 3400 60  0001 L CNN "Digi-Key_PN"
+F 5 "ATSAMD21G18A-AUT" H 3300 3500 60  0001 L CNN "MPN"
+F 6 "Integrated Circuits (ICs)" H 3300 3600 60  0001 L CNN "Category"
+F 7 "Embedded - Microcontrollers" H 3300 3700 60  0001 L CNN "Family"
+F 8 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en605782" H 3300 3800 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/microchip-technology/ATSAMD21G18A-AUT/ATSAMD21G18A-AUTCT-ND/4878879" H 3300 3900 60  0001 L CNN "DK_Detail_Page"
+F 10 "IC MCU 32BIT 256KB FLASH 48TQFP" H 3300 4000 60  0001 L CNN "Description"
+F 11 "Microchip Technology" H 3300 4100 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 3300 4200 60  0001 L CNN "Status"
+	1    3100 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:USB_B_Micro U8
+U 1 1 605406BF
+P 9000 1100
+F 0 "U8" H 8770 1089 50  0000 R CNN
+F 1 "USB_B_Micro" H 8770 998 50  0000 R CNN
+F 2 "digikey-footprints:USB_Micro_B_Female_10118194-0001LF" H 9150 1050 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1811141827_XKB-Connectivity-U-D-M7DS-G-1_C319155.pdf" H 9150 1050 50  0001 C CNN
+	1    9000 1100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L FTSH-105-01-F-D-K:FTSH-105-01-F-D-K J2
+U 1 1 60542640
+P 1800 5900
+F 0 "J2" H 1800 6367 50  0000 C CNN
+F 1 "FTSH-105-01-F-D-K" H 1800 6276 50  0000 C CNN
+F 2 "SAMTEC_FTSH-105-01-F-D-K" H 1800 5900 50  0001 L BNN
+F 3 "Connector Header Through Hole 10 position 0.050 (1.27mm)" H 1800 5900 50  0001 L BNN
+F 4 "https://pricing.snapeda.com/search/part/FTSH-105-01-F-D-K/?ref=eda" H 1800 5900 50  0001 L BNN "Field4"
+F 5 "None" H 1800 5900 50  0001 L BNN "Field5"
+F 6 "Samtec" H 1800 5900 50  0001 L BNN "Field6"
+F 7 "FTSH-105-01-F-D-K" H 1800 5900 50  0001 L BNN "Field7"
+F 8 "SAM8909-ND" H 1800 5900 50  0001 L BNN "Field8"
+	1    1800 5900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 6055125A
+P 5500 1200
+F 0 "R5" V 5707 1200 50  0000 C CNN
+F 1 "10K0" V 5616 1200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 5430 1200 50  0001 C CNN
+F 3 "~" H 5500 1200 50  0001 C CNN
+F 4 "CRGH0603J10K‎" V 5500 1200 50  0001 C CNN "PN"
+	1    5500 1200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 60551A80
+P 5500 1900
+F 0 "R2" V 5293 1900 50  0000 C CNN
+F 1 "270K0" V 5384 1900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 5430 1900 50  0001 C CNN
+F 3 "~" H 5500 1900 50  0001 C CNN
+F 4 "RC0603FR-07270KL" V 5500 1900 50  0001 C CNN "PN"
+	1    5500 1900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 60551C92
+P 5500 1500
+F 0 "R4" V 5293 1500 50  0000 C CNN
+F 1 "52K3" V 5384 1500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 5430 1500 50  0001 C CNN
+F 3 "~" H 5500 1500 50  0001 C CNN
+F 4 "CRCW060352K3FKEA" V 5500 1500 50  0001 C CNN "PN"
+	1    5500 1500
+	0    1    1    0   
+$EndComp
+$Comp
+L dk_Transistors-FETs-MOSFETs-Single:AO3401A Q1
+U 1 1 60552256
+P 6000 900
+F 0 "Q1" V 6267 900 60  0000 C CNN
+F 1 "AO3401A" V 6161 900 60  0000 C CNN
+F 2 "digikey-footprints:SOT-23-3" H 6200 1100 60  0001 L CNN
+F 3 "http://aosmd.com/res/data_sheets/AO3401A.pdf" H 6200 1200 60  0001 L CNN
+F 4 "785-1001-1-ND" H 6200 1300 60  0001 L CNN "Digi-Key_PN"
+F 5 "AO3401A" H 6200 1400 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 6200 1500 60  0001 L CNN "Category"
+F 7 "Transistors - FETs, MOSFETs - Single" H 6200 1600 60  0001 L CNN "Family"
+F 8 "http://aosmd.com/res/data_sheets/AO3401A.pdf" H 6200 1700 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/alpha-omega-semiconductor-inc/AO3401A/785-1001-1-ND/1855943" H 6200 1800 60  0001 L CNN "DK_Detail_Page"
+F 10 "MOSFET P-CH 30V 4A SOT23" H 6200 1900 60  0001 L CNN "Description"
+F 11 "Alpha & Omega Semiconductor Inc." H 6200 2000 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 6200 2100 60  0001 L CNN "Status"
+	1    6000 900 
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 60557948
+P 6300 1100
+F 0 "R6" H 6370 1146 50  0000 L CNN
+F 1 "10K0" H 6370 1055 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 6230 1100 50  0001 C CNN
+F 3 "~" H 6300 1100 50  0001 C CNN
+F 4 "CRGH0603J10K‎" H 6300 1100 50  0001 C CNN "PN"
+	1    6300 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C9
+U 1 1 60557A51
+P 6700 1100
+F 0 "C9" H 6815 1146 50  0000 L CNN
+F 1 "22uF" H 6815 1055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6738 950 50  0001 C CNN
+F 3 "~" H 6700 1100 50  0001 C CNN
+F 4 "CL10A226MQ8NRNC" H 6700 1100 50  0001 C CNN "PN"
+	1    6700 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C11
+U 1 1 605583C7
+P 7100 1100
+F 0 "C11" H 7215 1146 50  0000 L CNN
+F 1 "22uF" H 7215 1055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 7138 950 50  0001 C CNN
+F 3 "~" H 7100 1100 50  0001 C CNN
+F 4 "CL10A226MQ8NRNC" H 7100 1100 50  0001 C CNN "PN"
+	1    7100 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L DuetWifi-cache:GND #PWR0101
+U 1 1 6055AC16
+P 6400 1300
+F 0 "#PWR0101" H 6400 1050 50  0001 C CNN
+F 1 "GND" H 6405 1127 50  0000 C CNN
+F 2 "" H 6400 1300 50  0001 C CNN
+F 3 "" H 6400 1300 50  0001 C CNN
+	1    6400 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 1300 6700 1300
+Wire Wire Line
+	6700 900  6700 950 
+Wire Wire Line
+	6700 1250 6700 1300
+Connection ~ 6700 900 
+Connection ~ 6700 1300
+Wire Wire Line
+	5300 1200 5350 1200
+Wire Wire Line
+	5650 1200 5700 1200
+Wire Wire Line
+	5700 1500 5700 1200
+Wire Wire Line
+	5650 1500 5700 1500
+Connection ~ 5700 1200
+Wire Wire Line
+	5700 1200 5900 1200
+Wire Wire Line
+	5300 1200 5300 900 
+Wire Wire Line
+	5300 900  5800 900 
+Wire Wire Line
+	5300 900  5300 800 
+Connection ~ 5300 900 
+$Comp
+L power:+5V #PWR0102
+U 1 1 60561F56
+P 5300 800
+F 0 "#PWR0102" H 5300 650 50  0001 C CNN
+F 1 "+5V" H 5315 973 50  0000 C CNN
+F 2 "" H 5300 800 50  0001 C CNN
+F 3 "" H 5300 800 50  0001 C CNN
+	1    5300 800 
+	1    0    0    -1  
+$EndComp
+Connection ~ 5700 1500
+Text GLabel 5100 1900 0    39   Input ~ 0
+VIN_SW
+Wire Wire Line
+	5100 1500 5100 1600
+Wire Wire Line
+	5100 1500 5350 1500
+$Comp
+L DuetWifi-cache:GND #PWR0103
+U 1 1 605639BC
+P 5100 1600
+F 0 "#PWR0103" H 5100 1350 50  0001 C CNN
+F 1 "GND" H 5105 1427 50  0000 C CNN
+F 2 "" H 5100 1600 50  0001 C CNN
+F 3 "" H 5100 1600 50  0001 C CNN
+	1    5100 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 3500 7800 3300
+Wire Wire Line
+	8000 3300 8000 3400
+Wire Wire Line
+	8000 3400 8100 3400
+Text GLabel 8100 3400 2    39   Input ~ 0
+DN
+Wire Wire Line
+	8000 2500 8000 2400
+Wire Wire Line
+	8000 2400 8100 2400
+Text GLabel 8100 2400 2    39   Input ~ 0
+DP
+$Comp
+L Power_Protection:USBLC6-2SC6 U1
+U 1 1 6053F27D
+P 7900 2900
+F 0 "U1" V 7850 2350 50  0000 R CNN
+F 1 "USBLC6-2SC6" V 7950 2350 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 7900 2400 50  0001 C CNN
+F 3 "https://www.st.com/resource/en/datasheet/usblc6-2.pdf" H 8100 3250 50  0001 C CNN
+	1    7900 2900
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	8500 1200 8500 3500
+Wire Wire Line
+	8500 1200 8700 1200
+Wire Wire Line
+	8700 1300 8600 1300
+Wire Wire Line
+	8600 1300 8600 1700
+Text GLabel 8600 1700 2    39   Input ~ 0
+ID
+Wire Wire Line
+	9000 1500 9000 1900
+$Comp
+L power:GND #PWR0104
+U 1 1 605BA83A
+P 9000 1900
+F 0 "#PWR0104" H 9000 1650 50  0001 C CNN
+F 1 "GND" H 9005 1727 50  0000 C CNN
+F 2 "" H 9000 1900 50  0001 C CNN
+F 3 "" H 9000 1900 50  0001 C CNN
+	1    9000 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 2500 7800 2200
+Wire Wire Line
+	7800 3500 8500 3500
+Text GLabel 8300 2900 2    39   Input ~ 0
+SH
+$Comp
+L Device:R R10
+U 1 1 605C1DF4
+P 9800 2200
+F 0 "R10" H 9870 2246 50  0000 L CNN
+F 1 "1M0" H 9870 2155 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 9730 2200 50  0001 C CNN
+F 3 "~" H 9800 2200 50  0001 C CNN
+F 4 "RC0603FR-071ML" H 9800 2200 50  0001 C CNN "PN"
+	1    9800 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C13
+U 1 1 605C1DFA
+P 10200 2200
+F 0 "C13" H 10315 2246 50  0000 L CNN
+F 1 "4.7nF" H 10315 2155 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 10238 2050 50  0001 C CNN
+F 3 "" H 10200 2200 50  0001 C CNN
+F 4 "CL10B472KB8NNNC" H 10200 2200 50  0001 C CNN "PN"
+	1    10200 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9100 1500 9100 1600
+$Comp
+L power:GND #PWR0105
+U 1 1 605C4581
+P 10300 1700
+F 0 "#PWR0105" H 10300 1450 50  0001 C CNN
+F 1 "GND" H 10305 1527 50  0000 C CNN
+F 2 "" H 10300 1700 50  0001 C CNN
+F 3 "" H 10300 1700 50  0001 C CNN
+	1    10300 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10300 1700 10300 1600
+$Comp
+L Device:Ferrite_Bead FB2
+U 1 1 605C8508
+P 9600 1600
+F 0 "FB2" V 9326 1600 50  0000 C CNN
+F 1 "Ferrite_Bead" V 9417 1600 50  0000 C CNN
+F 2 "arduino:L0603(FB)" V 9530 1600 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/34024/ilbb0603.pdf" H 9600 1600 50  0001 C CNN
+F 4 "ILBB0603ER300V" V 9600 1600 50  0001 C CNN "PN"
+	1    9600 1600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9100 1600 9450 1600
+Wire Wire Line
+	9750 1600 9800 1600
+Connection ~ 9800 1600
+Wire Wire Line
+	9800 1600 9800 2050
+Wire Wire Line
+	9800 2350 9800 2400
+Wire Wire Line
+	10200 1600 10200 2050
+Wire Wire Line
+	10200 2350 10200 2400
+Wire Wire Line
+	10000 2400 10000 2600
+Wire Wire Line
+	10000 2600 10100 2600
+Wire Wire Line
+	10000 2400 9800 2400
+Text GLabel 10100 2600 2    39   Input ~ 0
+SH
+$Comp
+L Device:C C14
+U 1 1 605D4248
+P 7800 1100
+F 0 "C14" H 7915 1146 50  0000 L CNN
+F 1 "10nF" H 7915 1055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 7838 950 50  0001 C CNN
+F 3 "~" H 7800 1100 50  0001 C CNN
+F 4 "CC0603KRX7R9BB103" H 7800 1100 50  0001 C CNN "PN"
+	1    7800 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L DuetWifi-cache:GND #PWR0106
+U 1 1 605D8B3F
+P 7800 1400
+F 0 "#PWR0106" H 7800 1150 50  0001 C CNN
+F 1 "GND" H 7805 1227 50  0000 C CNN
+F 2 "" H 7800 1400 50  0001 C CNN
+F 3 "" H 7800 1400 50  0001 C CNN
+	1    7800 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8300 1100 8300 2200
+Wire Wire Line
+	8300 2200 7800 2200
+Wire Wire Line
+	8300 1100 8700 1100
+Wire Wire Line
+	7800 900  7800 950 
+Wire Wire Line
+	7800 1250 7800 1400
+Connection ~ 7800 900 
+Wire Wire Line
+	7800 900  8700 900 
+Text GLabel 7200 2300 2    39   Input ~ 0
+ID
+Wire Wire Line
+	6400 2300 6400 2500
+$Comp
+L Device:R R9
+U 1 1 605E2170
+P 7100 2100
+F 0 "R9" H 7030 2146 50  0000 R CNN
+F 1 "330" H 7030 2055 50  0000 R CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 7030 2100 50  0001 C CNN
+F 3 "~" H 7100 2100 50  0001 C CNN
+F 4 "RC0603FR-07330RL" V 7100 2100 50  0001 C CNN "PN"
+	1    7100 2100
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 2300 7100 2250
+Wire Wire Line
+	7100 1950 7100 1900
+Wire Wire Line
+	7100 2300 6600 2300
+Text GLabel 7200 1900 2    39   Input ~ 0
+USB_EN
+$Comp
+L Device:R R13
+U 1 1 605E48C9
+P 6600 2100
+F 0 "R13" H 6530 2146 50  0000 R CNN
+F 1 "10K0" H 6530 2055 50  0000 R CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 6530 2100 50  0001 C CNN
+F 3 "~" H 6600 2100 50  0001 C CNN
+F 4 "CRGH0603J10K‎" H 6600 2100 50  0001 C CNN "PN"
+	1    6600 2100
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 2300 6600 2250
+Wire Wire Line
+	6600 1900 6100 1900
+Wire Wire Line
+	6100 1900 6100 2100
+Connection ~ 6600 2300
+Wire Wire Line
+	6600 2300 6400 2300
+$Comp
+L power:+3.3V #PWR0107
+U 1 1 605E6FC7
+P 6600 1800
+F 0 "#PWR0107" H 6600 1650 50  0001 C CNN
+F 1 "+3.3V" H 6615 1973 50  0000 C CNN
+F 2 "" H 6600 1800 50  0001 C CNN
+F 3 "" H 6600 1800 50  0001 C CNN
+	1    6600 1800
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 1800 6600 1900
+Connection ~ 6600 1900
+Wire Wire Line
+	6600 1900 6600 1950
+Wire Wire Line
+	7200 1900 7100 1900
+Wire Wire Line
+	7200 2300 7100 2300
+Connection ~ 7100 2300
+Connection ~ 5900 1200
+Wire Wire Line
+	6100 2700 6100 2800
+$Comp
+L DuetWifi-cache:GND #PWR0108
+U 1 1 60600B84
+P 6100 2800
+F 0 "#PWR0108" H 6100 2550 50  0001 C CNN
+F 1 "GND" H 6105 2627 50  0000 C CNN
+F 2 "" H 6100 2800 50  0001 C CNN
+F 3 "" H 6100 2800 50  0001 C CNN
+	1    6100 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Ferrite_Bead FB1
+U 1 1 6061F49A
+P 2100 1300
+F 0 "FB1" V 1826 1300 50  0000 C CNN
+F 1 "Ferrite_Bead" V 1917 1300 50  0000 C CNN
+F 2 "arduino:L0603(FB)" V 2030 1300 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/34024/ilbb0603.pdf" H 2100 1300 50  0001 C CNN
+F 4 "ILBB0603ER300V" V 2100 1300 50  0001 C CNN "PN"
+	1    2100 1300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3000 1400 3000 1300
+Wire Wire Line
+	3100 1400 3100 1000
+Wire Wire Line
+	3200 1400 3200 900 
+Wire Wire Line
+	3300 1400 3300 900 
+Wire Wire Line
+	3400 1400 3400 1200
+Wire Wire Line
+	3400 1200 3800 1200
+$Comp
+L Device:C C12
+U 1 1 6063B3F6
+P 3800 1500
+F 0 "C12" H 3915 1546 50  0000 L CNN
+F 1 "100nF" H 3915 1455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3838 1350 50  0001 C CNN
+F 3 "~" H 3800 1500 50  0001 C CNN
+F 4 "CC0603KRX7R9BB104" H 3800 1500 50  0001 C CNN "PN"
+	1    3800 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L DuetWifi-cache:GND #PWR0109
+U 1 1 6063DAAC
+P 4100 1700
+F 0 "#PWR0109" H 4100 1450 50  0001 C CNN
+F 1 "GND" H 4105 1527 50  0000 C CNN
+F 2 "" H 4100 1700 50  0001 C CNN
+F 3 "" H 4100 1700 50  0001 C CNN
+	1    4100 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0110
+U 1 1 60640AC9
+P 3800 1200
+F 0 "#PWR0110" H 3800 1050 50  0001 C CNN
+F 1 "+3.3V" H 3815 1373 50  0000 C CNN
+F 2 "" H 3800 1200 50  0001 C CNN
+F 3 "" H 3800 1200 50  0001 C CNN
+	1    3800 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 1200 3800 1350
+Wire Wire Line
+	3800 1700 4100 1700
+Wire Wire Line
+	3800 1650 3800 1700
+Connection ~ 3800 1200
+Connection ~ 4100 1700
+Wire Wire Line
+	1800 800  1800 900 
+Wire Wire Line
+	1800 1300 1950 1300
+Wire Wire Line
+	2250 1300 3000 1300
+Wire Wire Line
+	3100 1000 1800 1000
+Connection ~ 1800 1000
+Wire Wire Line
+	3200 900  1800 900 
+Connection ~ 1800 900 
+Wire Wire Line
+	1800 900  1800 1000
+$Comp
+L power:+3.3V #PWR0111
+U 1 1 6065F2EC
+P 1800 800
+F 0 "#PWR0111" H 1800 650 50  0001 C CNN
+F 1 "+3.3V" H 1815 973 50  0000 C CNN
+F 2 "" H 1800 800 50  0001 C CNN
+F 3 "" H 1800 800 50  0001 C CNN
+	1    1800 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Crystal Y1
+U 1 1 60683965
+P 1400 2100
+F 0 "Y1" V 1354 2231 50  0000 L CNN
+F 1 "32.76KHz" V 1445 2231 50  0000 L CNN
+F 2 "arduino:FC-135R_L3.2-W1.5" H 1400 2100 50  0001 C CNN
+F 3 "https://support.epson.biz/td/api/doc_check.php?dl=brief_FC-135&lang=en" H 1400 2100 50  0001 C CNN
+	1    1400 2100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 606856C7
+P 900 2300
+F 0 "C2" V 1152 2300 50  0000 C CNN
+F 1 "20pF" V 1061 2300 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 938 2150 50  0001 C CNN
+F 3 "~" H 900 2300 50  0001 C CNN
+F 4 "CL10C200JB8NNNC" V 900 2300 50  0001 C CNN "PN"
+	1    900  2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 606856CD
+P 900 1900
+F 0 "C1" V 1152 1900 50  0000 C CNN
+F 1 "20pF" V 1061 1900 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 938 1750 50  0001 C CNN
+F 3 "~" H 900 1900 50  0001 C CNN
+F 4 "CL10C200JB8NNNC" H 900 1900 50  0001 C CNN "PN"
+	1    900  1900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	750  1900 600  1900
+Wire Wire Line
+	600  2300 750  2300
+Wire Wire Line
+	1050 2300 1400 2300
+Connection ~ 600  2300
+Wire Wire Line
+	600  2300 600  2400
+Wire Wire Line
+	600  1900 600  2300
+Wire Wire Line
+	1400 1900 1400 1950
+Wire Wire Line
+	1400 2250 1400 2300
+Connection ~ 1400 1900
+Wire Wire Line
+	1400 1900 1050 1900
+Connection ~ 1400 2300
+Wire Wire Line
+	1600 2000 1600 2300
+Wire Wire Line
+	1400 2300 1600 2300
+$Comp
+L DuetWifi-cache:GND #PWR0112
+U 1 1 6069F9AA
+P 600 2400
+F 0 "#PWR0112" H 600 2150 50  0001 C CNN
+F 1 "GND" H 605 2227 50  0000 C CNN
+F 2 "" H 600 2400 50  0001 C CNN
+F 3 "" H 600 2400 50  0001 C CNN
+	1    600  2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C6
+U 1 1 606A0C00
+P 1600 2900
+F 0 "C6" H 1485 2854 50  0000 R CNN
+F 1 "100nF" H 1485 2945 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 1638 2750 50  0001 C CNN
+F 3 "~" H 1600 2900 50  0001 C CNN
+F 4 "CC0603KRX7R9BB104" H 1600 2900 50  0001 C CNN "PN"
+	1    1600 2900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C3
+U 1 1 606A0C06
+P 1100 2900
+F 0 "C3" H 985 2854 50  0000 R CNN
+F 1 "4.7uF" H 985 2945 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 1138 2750 50  0001 C CNN
+F 3 "~" H 1100 2900 50  0001 C CNN
+F 4 "CL10A475KO8NNNC" H 1100 2900 50  0001 C CNN "PN"
+	1    1100 2900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1800 2100 1800 2500
+Wire Wire Line
+	1800 2500 1200 2500
+Text GLabel 1200 2500 0    39   Input ~ 0
+A0
+Wire Wire Line
+	1900 2200 1900 2700
+Wire Wire Line
+	1900 2700 1600 2700
+Wire Wire Line
+	1100 2700 1100 2750
+Wire Wire Line
+	1100 3050 1100 3100
+$Comp
+L DuetWifi-cache:GND #PWR0113
+U 1 1 606BAAE1
+P 1300 3200
+F 0 "#PWR0113" H 1300 2950 50  0001 C CNN
+F 1 "GND" H 1305 3027 50  0000 C CNN
+F 2 "" H 1300 3200 50  0001 C CNN
+F 3 "" H 1300 3200 50  0001 C CNN
+	1    1300 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1100 3100 1300 3100
+Wire Wire Line
+	1300 3200 1300 3100
+Connection ~ 1300 3100
+Wire Wire Line
+	1100 2700 1000 2700
+Connection ~ 1100 2700
+Text GLabel 1000 2700 0    39   Input ~ 0
+AREF
+Wire Wire Line
+	1400 1900 2600 1900
+Wire Wire Line
+	1600 2000 2600 2000
+Wire Wire Line
+	1800 2100 2600 2100
+Wire Wire Line
+	1900 2200 2600 2200
+Wire Wire Line
+	3400 4400 3300 4400
+Connection ~ 3200 4400
+Wire Wire Line
+	3200 4400 3100 4400
+Connection ~ 3300 4400
+Wire Wire Line
+	3300 4400 3200 4400
+Wire Wire Line
+	3100 4400 3100 4500
+Connection ~ 3100 4400
+$Comp
+L DuetWifi-cache:GND #PWR0114
+U 1 1 607AE746
+P 3100 4500
+F 0 "#PWR0114" H 3100 4250 50  0001 C CNN
+F 1 "GND" H 3105 4327 50  0000 C CNN
+F 2 "" H 3100 4500 50  0001 C CNN
+F 3 "" H 3100 4500 50  0001 C CNN
+	1    3100 4500
+	1    0    0    -1  
+$EndComp
+Entry Wire Line
+	2300 3800 2200 3900
+Entry Wire Line
+	2300 3700 2200 3800
+Entry Wire Line
+	2300 3600 2200 3700
+Entry Wire Line
+	2300 3500 2200 3600
+Entry Wire Line
+	2300 3400 2200 3500
+Entry Wire Line
+	2300 3300 2200 3400
+Entry Wire Line
+	2300 3200 2200 3300
+Entry Wire Line
+	2300 3100 2200 3200
+Entry Wire Line
+	2300 3000 2200 3100
+Entry Wire Line
+	2300 2900 2200 3000
+Entry Wire Line
+	2300 2800 2200 2900
+Entry Wire Line
+	2300 2700 2200 2800
+Entry Wire Line
+	2300 2600 2200 2700
+Entry Wire Line
+	2300 2500 2200 2600
+Entry Wire Line
+	2300 2400 2200 2500
+Entry Wire Line
+	2300 2300 2200 2400
+Wire Wire Line
+	2600 2300 2300 2300
+Wire Wire Line
+	2600 2400 2300 2400
+Wire Wire Line
+	2600 2500 2300 2500
+Wire Wire Line
+	2600 2600 2300 2600
+Wire Wire Line
+	2300 2700 2600 2700
+Wire Wire Line
+	2300 2800 2600 2800
+Wire Wire Line
+	2300 2900 2600 2900
+Wire Wire Line
+	2300 3000 2600 3000
+Wire Wire Line
+	2300 3100 2600 3100
+Wire Wire Line
+	2300 3200 2600 3200
+Wire Wire Line
+	2300 3300 2600 3300
+Wire Wire Line
+	2300 3400 2600 3400
+Wire Wire Line
+	2300 3500 2600 3500
+Wire Wire Line
+	2300 3600 2600 3600
+Wire Wire Line
+	2300 3700 2600 3700
+Wire Wire Line
+	2300 3800 2600 3800
+Entry Wire Line
+	2300 4000 2200 4100
+Entry Wire Line
+	2300 3900 2200 4000
+Wire Wire Line
+	2300 3900 2600 3900
+Wire Wire Line
+	2300 4000 2600 4000
+Entry Wire Line
+	2300 4150 2200 4250
+Wire Wire Line
+	2300 4150 2600 4150
+Text Label 2300 2300 0    39   ~ 0
+PA04
+Text Label 2300 2400 0    39   ~ 0
+PA05
+Text Label 2300 2500 0    39   ~ 0
+PA06
+Text Label 2300 2600 0    39   ~ 0
+PA07
+Text Label 2300 2700 0    39   ~ 0
+PA08
+Text Label 2300 2800 0    39   ~ 0
+PA09
+Text Label 2300 2900 0    39   ~ 0
+PA10
+Text Label 2300 3000 0    39   ~ 0
+PA11
+Text Label 2300 3100 0    39   ~ 0
+PA12
+Text Label 2300 3200 0    39   ~ 0
+PA13
+Text Label 2300 3300 0    39   ~ 0
+PA14
+Text Label 2300 3400 0    39   ~ 0
+PA15
+Text Label 2300 3500 0    39   ~ 0
+PA16
+Text Label 2300 3600 0    39   ~ 0
+PA17
+Text Label 2300 3700 0    39   ~ 0
+PA18
+Text Label 2300 3800 0    39   ~ 0
+PA19
+Text Label 2300 3900 0    39   ~ 0
+PA20
+Text Label 2300 4000 0    39   ~ 0
+PA21
+Text Label 2300 4150 0    39   ~ 0
+RST
+Text Label 3600 3300 0    39   ~ 0
+DN
+Text Label 3600 3200 0    39   ~ 0
+DP
+$Comp
+L Device:C C4
+U 1 1 6082A1FE
+P 1800 4500
+F 0 "C4" H 1685 4454 50  0000 R CNN
+F 1 "100nF" H 1685 4545 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 1838 4350 50  0001 C CNN
+F 3 "~" H 1800 4500 50  0001 C CNN
+F 4 "CC0603KRX7R9BB104" H 1800 4500 50  0001 C CNN "PN"
+	1    1800 4500
+	-1   0    0    1   
+$EndComp
+Text GLabel 7100 5800 2    39   Input ~ 0
+USB_EN
+Text GLabel 7100 6000 2    39   Input ~ 0
+DP
+Text GLabel 7100 6100 2    39   Input ~ 0
+DN
+Entry Wire Line
+	2100 4300 2200 4400
+$Comp
+L Device:R R3
+U 1 1 608FF795
+P 1600 4300
+F 0 "R3" V 1393 4300 50  0000 C CNN
+F 1 "330" V 1484 4300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 1530 4300 50  0001 C CNN
+F 3 "~" H 1600 4300 50  0001 C CNN
+F 4 "RC0603FR-07330RL" V 1600 4300 50  0001 C CNN "PN"
+	1    1600 4300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1450 4300 1400 4300
+$Comp
+L DuetWifi-cache:GND #PWR0116
+U 1 1 60916A64
+P 1800 4700
+F 0 "#PWR0116" H 1800 4450 50  0001 C CNN
+F 1 "GND" H 1805 4527 50  0000 C CNN
+F 2 "" H 1800 4700 50  0001 C CNN
+F 3 "" H 1800 4700 50  0001 C CNN
+	1    1800 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 4300 1800 4300
+Wire Wire Line
+	1800 4300 1800 4350
+Wire Wire Line
+	1800 4650 1800 4700
+Connection ~ 1800 4300
+Wire Wire Line
+	1800 4300 1750 4300
+$Comp
+L Device:LED D3
+U 1 1 6093B9B5
+P 600 4100
+F 0 "D3" V 639 3982 50  0000 R CNN
+F 1 "LED" V 548 3982 50  0000 R CNN
+F 2 "LED_SMD:LED_0402_1005Metric" H 600 4100 50  0001 C CNN
+F 3 "~" H 600 4100 50  0001 C CNN
+F 4 "LTST-C191KSKT" V 600 4100 50  0001 C CNN "PN"
+	1    600  4100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1000 4300 600  4300
+Wire Wire Line
+	600  4300 600  4250
+Connection ~ 1000 4300
+$Comp
+L Device:R R24
+U 1 1 6094A737
+P 600 3700
+F 0 "R24" H 530 3746 50  0000 R CNN
+F 1 "150R" H 530 3655 50  0000 R CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 530 3700 50  0001 C CNN
+F 3 "~" H 600 3700 50  0001 C CNN
+F 4 "‎ERJ-3GEYJ151V" H 600 3700 50  0001 C CNN "PN"
+	1    600  3700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 60956F7C
+P 1000 3700
+F 0 "R1" H 930 3746 50  0000 R CNN
+F 1 "10K0" H 930 3655 50  0000 R CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 930 3700 50  0001 C CNN
+F 3 "~" H 1000 3700 50  0001 C CNN
+F 4 "‎CRGH0603J10K‎" H 1000 3700 50  0001 C CNN "PN"
+	1    1000 3700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D_Zener D4
+U 1 1 609637E0
+P 1400 3700
+F 0 "D4" V 1354 3780 50  0000 L CNN
+F 1 "D_Zener" V 1445 3780 50  0000 L CNN
+F 2 "arduino:ss24fl" H 1400 3700 50  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/SS26FL-D.PDF" H 1400 3700 50  0001 C CNN
+	1    1400 3700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	600  3500 1000 3500
+Wire Wire Line
+	1400 3500 1400 3550
+Wire Wire Line
+	600  3500 600  3550
+Wire Wire Line
+	600  3850 600  3950
+Wire Wire Line
+	1400 3850 1400 4300
+Wire Wire Line
+	1000 3500 1000 3550
+Wire Wire Line
+	1000 3850 1000 4300
+Connection ~ 1000 3500
+Wire Wire Line
+	1000 3500 1400 3500
+Wire Wire Line
+	1000 3500 1000 3400
+$Comp
+L power:+3.3V #PWR0117
+U 1 1 6098CF33
+P 1000 3400
+F 0 "#PWR0117" H 1000 3250 50  0001 C CNN
+F 1 "+3.3V" H 1015 3573 50  0000 C CNN
+F 2 "" H 1000 3400 50  0001 C CNN
+F 3 "" H 1000 3400 50  0001 C CNN
+	1    1000 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1000 4700 1000 4800
+$Comp
+L DuetWifi-cache:GND #PWR0118
+U 1 1 6099B49F
+P 1000 4800
+F 0 "#PWR0118" H 1000 4550 50  0001 C CNN
+F 1 "GND" H 1005 4627 50  0000 C CNN
+F 2 "" H 1000 4800 50  0001 C CNN
+F 3 "" H 1000 4800 50  0001 C CNN
+	1    1000 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 5700 1200 5700
+Wire Wire Line
+	1200 5700 1200 5400
+Wire Wire Line
+	1300 5800 1100 5800
+Wire Wire Line
+	1100 5800 1100 5300
+Wire Wire Line
+	1100 5300 2900 5300
+Wire Wire Line
+	2900 5300 2900 4900
+Wire Wire Line
+	3300 5400 3300 4900
+Wire Wire Line
+	1200 5400 3300 5400
+Text Label 3300 5275 0    39   ~ 0
+SWDIO
+Text Label 2900 5250 0    39   ~ 0
+SWCLK
+Wire Wire Line
+	1300 6100 600  6100
+Wire Wire Line
+	600  6100 600  4300
+Connection ~ 600  4300
+Wire Wire Line
+	2300 5700 2500 5700
+$Comp
+L power:+3.3V #PWR0119
+U 1 1 60A081C7
+P 2500 5700
+F 0 "#PWR0119" H 2500 5550 50  0001 C CNN
+F 1 "+3.3V" H 2515 5873 50  0000 C CNN
+F 2 "" H 2500 5700 50  0001 C CNN
+F 3 "" H 2500 5700 50  0001 C CNN
+	1    2500 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 5800 2300 5900
+Wire Wire Line
+	2300 5900 2500 5900
+Connection ~ 2300 5900
+$Comp
+L DuetWifi-cache:GND #PWR0120
+U 1 1 60A284F4
+P 2500 5900
+F 0 "#PWR0120" H 2500 5650 50  0001 C CNN
+F 1 "GND" H 2505 5727 50  0000 C CNN
+F 2 "" H 2500 5900 50  0001 C CNN
+F 3 "" H 2500 5900 50  0001 C CNN
+	1    2500 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R12
+U 1 1 60A293DC
+P 9600 3200
+F 0 "R12" H 9530 3246 50  0000 R CNN
+F 1 "150R" H 9530 3155 50  0000 R CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 9530 3200 50  0001 C CNN
+F 3 "~" H 9600 3200 50  0001 C CNN
+F 4 "‎ERJ-3GEYJ151V" H 9600 3200 50  0001 C CNN "PN"
+	1    9600 3200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R R11
+U 1 1 60A293E2
+P 9200 3200
+F 0 "R11" H 9130 3246 50  0000 R CNN
+F 1 "270R" H 9130 3155 50  0000 R CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 9130 3200 50  0001 C CNN
+F 3 "~" H 9200 3200 50  0001 C CNN
+F 4 "RC0603FR-07270RL" H 9200 3200 50  0001 C CNN "PN"
+	1    9200 3200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:LED D1
+U 1 1 60A3A109
+P 9200 3600
+F 0 "D1" V 9239 3482 50  0000 R CNN
+F 1 "LED" V 9148 3482 50  0000 R CNN
+F 2 "LED_SMD:LED_0402_1005Metric" H 9200 3600 50  0001 C CNN
+F 3 "~" H 9200 3600 50  0001 C CNN
+F 4 "LTST-C190KGKT" V 9200 3600 50  0001 C CNN "PN"
+	1    9200 3600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D2
+U 1 1 60A49BA8
+P 9600 3600
+F 0 "D2" V 9639 3482 50  0000 R CNN
+F 1 "LED" V 9548 3482 50  0000 R CNN
+F 2 "LED_SMD:LED_0402_1005Metric" H 9600 3600 50  0001 C CNN
+F 3 "~" H 9600 3600 50  0001 C CNN
+F 4 "LTST-C191KSKT" V 9600 3600 50  0001 C CNN "PN"
+	1    9600 3600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR0121
+U 1 1 60A68E76
+P 9200 2900
+F 0 "#PWR0121" H 9200 2750 50  0001 C CNN
+F 1 "+5V" H 9215 3073 50  0000 C CNN
+F 2 "" H 9200 2900 50  0001 C CNN
+F 3 "" H 9200 2900 50  0001 C CNN
+	1    9200 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0122
+U 1 1 60A69634
+P 9600 2900
+F 0 "#PWR0122" H 9600 2750 50  0001 C CNN
+F 1 "+3.3V" H 9615 3073 50  0000 C CNN
+F 2 "" H 9600 2900 50  0001 C CNN
+F 3 "" H 9600 2900 50  0001 C CNN
+	1    9600 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L DuetWifi-cache:GND #PWR0123
+U 1 1 60A6A212
+P 9600 3900
+F 0 "#PWR0123" H 9600 3650 50  0001 C CNN
+F 1 "GND" H 9605 3727 50  0000 C CNN
+F 2 "" H 9600 3900 50  0001 C CNN
+F 3 "" H 9600 3900 50  0001 C CNN
+	1    9600 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L DuetWifi-cache:GND #PWR0124
+U 1 1 60A6A86B
+P 9200 3900
+F 0 "#PWR0124" H 9200 3650 50  0001 C CNN
+F 1 "GND" H 9205 3727 50  0000 C CNN
+F 2 "" H 9200 3900 50  0001 C CNN
+F 3 "" H 9200 3900 50  0001 C CNN
+	1    9200 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9200 2900 9200 3050
+Wire Wire Line
+	9200 3350 9200 3450
+Wire Wire Line
+	9200 3750 9200 3900
+Wire Wire Line
+	9600 2900 9600 3050
+Wire Wire Line
+	9600 3350 9600 3450
+Wire Wire Line
+	9600 3750 9600 3900
+Wire Wire Line
+	7800 900  7800 600 
+Wire Wire Line
+	7800 600  7700 600 
+Text GLabel 7700 600  0    39   Input ~ 0
+VBUS
+Wire Wire Line
+	5900 2500 5900 1200
+Connection ~ 6400 2300
+$Comp
+L dk_Logic-Buffers-Drivers-Receivers-Transceivers:SN74LVC1G125DCKR U9
+U 1 1 605416DC
+P 6100 2400
+F 0 "U9" H 6200 2900 60  0000 C CNN
+F 1 "SN74LVC1G125DBVT" H 6100 2800 60  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 6300 2600 60  0001 L CNN
+F 3 "https://www.ti.com/lit/ds/symlink/sn74lvc1g125.pdf?ts=1612467890304&ref_url=https%253A%252F%252Fwww.google.com%252F" H 6300 2700 60  0001 L CNN
+F 4 "" H 6300 2800 60  0001 L CNN "Digi-Key_PN"
+F 5 "SN74LVC1G125DBVT" H 6300 2900 60  0001 L CNN "MPN"
+F 6 "Integrated Circuits (ICs)" H 6300 3000 60  0001 L CNN "Category"
+F 7 "Logic - Buffers, Drivers, Receivers, Transceivers" H 6300 3100 60  0001 L CNN "Family"
+F 8 "" H 6300 3200 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "" H 6300 3300 60  0001 L CNN "DK_Detail_Page"
+F 10 "IC BUF NON-INVERT 5.5V SC70-5" H 6300 3400 60  0001 L CNN "Description"
+F 11 "Texas Instruments" H 6300 3500 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 6300 3600 60  0001 L CNN "Status"
+	1    6100 2400
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 900  7100 950 
+Wire Wire Line
+	6700 900  7100 900 
+Wire Wire Line
+	7100 1250 7100 1300
+Wire Wire Line
+	6700 1300 7100 1300
+$Comp
+L Device:Fuse F1
+U 1 1 6055BE81
+P 7300 900
+F 0 "F1" V 7103 900 50  0000 C CNN
+F 1 "Fuse" V 7194 900 50  0000 C CNN
+F 2 "arduino:fuse" V 7230 900 50  0001 C CNN
+F 3 "~" H 7300 900 50  0001 C CNN
+F 4 "0468.500NRHF" V 7300 900 50  0001 C CNN "PN"
+	1    7300 900 
+	0    1    1    0   
+$EndComp
+Connection ~ 7100 900 
+Wire Wire Line
+	7100 900  7150 900 
+Wire Wire Line
+	7450 900  7500 900 
+Wire Wire Line
+	7500 900  7800 900 
+Connection ~ 7500 900 
+Wire Wire Line
+	7500 900  7500 2900
+Wire Wire Line
+	6300 900  6700 900 
+Wire Wire Line
+	6400 1300 6300 1300
+Wire Wire Line
+	6300 1300 6300 1250
+Wire Wire Line
+	6300 950  6300 900 
+Connection ~ 6400 1300
+Wire Wire Line
+	6300 900  6200 900 
+Connection ~ 6300 900 
+Connection ~ 10200 1600
+Wire Wire Line
+	10200 1600 10300 1600
+Wire Wire Line
+	9800 1600 10200 1600
+Wire Wire Line
+	10000 2400 10200 2400
+Connection ~ 10000 2400
+$Comp
+L Device:C C10
+U 1 1 6063B3FC
+P 4300 1500
+F 0 "C10" H 4415 1546 50  0000 L CNN
+F 1 "1uF" H 4415 1455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4338 1350 50  0001 C CNN
+F 3 "~" H 4300 1500 50  0001 C CNN
+F 4 "‎CL10B105MO8NNWC" H 4300 1500 50  0001 C CNN "PN"
+	1    4300 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 900  4300 1350
+Wire Wire Line
+	4300 1700 4100 1700
+Wire Wire Line
+	4300 1650 4300 1700
+Wire Wire Line
+	3300 900  4300 900 
+Wire Wire Line
+	1800 1000 1800 1300
+$Comp
+L Device:C C7
+U 1 1 6064496B
+P 1100 1300
+F 0 "C7" H 1215 1346 50  0000 L CNN
+F 1 "100nF" H 1215 1255 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 1138 1150 50  0001 C CNN
+F 3 "~" H 1100 1300 50  0001 C CNN
+F 4 "CC0603KRX7R9BB104" H 1100 1300 50  0001 C CNN "PN"
+	1    1100 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C8
+U 1 1 60644971
+P 1500 1300
+F 0 "C8" H 1615 1346 50  0000 L CNN
+F 1 "10uF" H 1615 1255 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 1538 1150 50  0001 C CNN
+F 3 "~" H 1500 1300 50  0001 C CNN
+F 4 "CL10B106MQ8NRNC" H 1500 1300 50  0001 C CNN "PN"
+	1    1500 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C5
+U 1 1 606478E9
+P 600 1300
+F 0 "C5" H 715 1346 50  0000 L CNN
+F 1 "100nF" H 715 1255 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 638 1150 50  0001 C CNN
+F 3 "~" H 600 1300 50  0001 C CNN
+F 4 "CC0603KRX7R9BB104" H 600 1300 50  0001 C CNN "PN"
+	1    600  1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L DuetWifi-cache:GND #PWR0128
+U 1 1 60663772
+P 1200 1600
+F 0 "#PWR0128" H 1200 1350 50  0001 C CNN
+F 1 "GND" H 1205 1427 50  0000 C CNN
+F 2 "" H 1200 1600 50  0001 C CNN
+F 3 "" H 1200 1600 50  0001 C CNN
+	1    1200 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	600  1100 600  1150
+Wire Wire Line
+	600  1450 600  1500
+Wire Wire Line
+	800  900  800  1100
+Connection ~ 800  1100
+Wire Wire Line
+	800  1100 600  1100
+Wire Wire Line
+	1100 1100 1100 1150
+Wire Wire Line
+	1100 1450 1100 1500
+Wire Wire Line
+	1100 1100 1500 1100
+Wire Wire Line
+	1500 1100 1500 1150
+Wire Wire Line
+	1500 1450 1500 1500
+Connection ~ 1100 1100
+Connection ~ 1100 1500
+Wire Wire Line
+	1100 1500 1200 1500
+Wire Wire Line
+	800  1100 1100 1100
+Wire Wire Line
+	1200 1500 1200 1600
+Wire Wire Line
+	800  900  1800 900 
+Connection ~ 1200 1500
+Wire Wire Line
+	1200 1500 1500 1500
+Wire Wire Line
+	600  1500 1100 1500
+Wire Wire Line
+	1600 2700 1600 2750
+Wire Wire Line
+	1600 3050 1600 3100
+Connection ~ 1600 2700
+Wire Wire Line
+	1100 2700 1600 2700
+Wire Wire Line
+	1300 3100 1600 3100
+$Comp
+L dk_Tactile-Switches:1825910-6 S1
+U 1 1 6137733A
+P 1100 4500
+F 0 "S1" V 1153 4356 60  0000 R CNN
+F 1 "RST" V 1047 4356 60  0000 R CNN
+F 2 "arduino:reset_button" H 1300 4700 60  0001 L CNN
+F 3 "https://www.ckswitches.com/media/2780/pts526.pdf" H 1300 4800 60  0001 L CNN
+F 4 "" H 1300 4900 60  0001 L CNN "Digi-Key_PN"
+F 5 "PTS526 SK15 SMTR2 LFS" H 1300 5000 60  0001 L CNN "MPN"
+F 6 "Switches" H 1300 5100 60  0001 L CNN "Category"
+F 7 "Tactile Switches" H 1300 5200 60  0001 L CNN "Family"
+F 8 "" H 1300 5300 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "" H 1300 5400 60  0001 L CNN "DK_Detail_Page"
+F 10 "" H 1300 5500 60  0001 L CNN "Description"
+F 11 "" H 1300 5600 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 1300 5700 60  0001 L CNN "Status"
+	1    1100 4500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1400 4300 1200 4300
+Connection ~ 1400 4300
+Connection ~ 1200 4300
+Wire Wire Line
+	1200 4300 1000 4300
+Wire Wire Line
+	1200 4700 1000 4700
+Connection ~ 1000 4700
+Entry Wire Line
+	6500 4700 6400 4800
+Entry Wire Line
+	6500 4600 6400 4700
+Entry Wire Line
+	6500 4500 6400 4600
+Entry Wire Line
+	6500 4400 6400 4500
+Entry Wire Line
+	6500 4300 6400 4400
+Entry Wire Line
+	6500 4200 6400 4300
+Entry Wire Line
+	6500 4100 6400 4200
+Entry Wire Line
+	6500 4000 6400 4100
+Entry Wire Line
+	6500 3900 6400 4000
+Entry Wire Line
+	6500 3800 6400 3900
+Entry Wire Line
+	6500 3700 6400 3800
+Entry Wire Line
+	6500 3600 6400 3700
+Entry Wire Line
+	6500 3500 6400 3600
+Entry Wire Line
+	6500 3400 6400 3500
+Entry Wire Line
+	6500 3300 6400 3400
+Entry Wire Line
+	6500 3200 6400 3300
+Wire Wire Line
+	6800 3200 6500 3200
+Wire Wire Line
+	6800 3300 6500 3300
+Wire Wire Line
+	6800 3400 6500 3400
+Wire Wire Line
+	6800 3500 6500 3500
+Wire Wire Line
+	6500 3600 6800 3600
+Wire Wire Line
+	6500 3700 6800 3700
+Wire Wire Line
+	6500 3800 6800 3800
+Wire Wire Line
+	6500 3900 6800 3900
+Wire Wire Line
+	6500 4000 6800 4000
+Wire Wire Line
+	6500 4100 6800 4100
+Wire Wire Line
+	6500 4200 6800 4200
+Wire Wire Line
+	6500 4300 6800 4300
+Wire Wire Line
+	6500 4400 6800 4400
+Wire Wire Line
+	6500 4500 6800 4500
+Wire Wire Line
+	6500 4600 6800 4600
+Wire Wire Line
+	6500 4700 6800 4700
+Entry Wire Line
+	6500 4800 6400 4900
+Wire Wire Line
+	6500 4800 6800 4800
+Wire Wire Line
+	6500 4900 6800 4900
+Text Label 6500 3200 0    39   ~ 0
+PA04
+Text Label 6500 3300 0    39   ~ 0
+PA05
+Text Label 6500 3400 0    39   ~ 0
+PA06
+Text Label 6500 3500 0    39   ~ 0
+PA07
+Text Label 6500 3600 0    39   ~ 0
+PA08
+Text Label 6500 3700 0    39   ~ 0
+PA09
+Text Label 6500 3800 0    39   ~ 0
+PA10
+Text Label 6500 3900 0    39   ~ 0
+PA11
+Text Label 6500 4000 0    39   ~ 0
+PA12
+Text Label 6500 4100 0    39   ~ 0
+PA13
+Text Label 6500 4200 0    39   ~ 0
+PA14
+Text Label 6500 4300 0    39   ~ 0
+PA15
+Text Label 6500 4400 0    39   ~ 0
+PA16
+Text Label 6500 4500 0    39   ~ 0
+PA17
+Text Label 6500 4600 0    39   ~ 0
+PA18
+Text Label 6500 4700 0    39   ~ 0
+PA19
+Text Label 6500 4800 0    39   ~ 0
+PA20
+Text Label 6500 4900 0    39   ~ 0
+PA21
+Text GLabel 6800 3200 2    39   Input ~ 0
+A3
+Text GLabel 6800 3300 2    39   Input ~ 0
+A4
+Text GLabel 6800 3400 2    39   Input ~ 0
+D8
+Text GLabel 6800 3500 2    39   Input ~ 0
+D9
+Text GLabel 6800 3600 2    39   Input ~ 0
+D4
+Text GLabel 6800 3700 2    39   Input ~ 0
+D3
+Text GLabel 6800 3800 2    39   Input ~ 0
+D1\TX
+Text GLabel 6800 3900 2    39   Input ~ 0
+D0\RX
+Text GLabel 6800 4000 2    39   Input ~ 0
+SPI_MISO
+Text GLabel 6800 4100 2    39   Input ~ 0
+GPIO0
+Text GLabel 6800 4200 2    39   Input ~ 0
+D2
+Text GLabel 6800 4300 2    39   Input ~ 0
+D5
+Text GLabel 6800 4400 2    39   Input ~ 0
+D11\MOSI
+Text GLabel 6800 4500 2    39   Input ~ 0
+D13\SCK
+Text GLabel 6800 4600 2    39   Input ~ 0
+D10\SS
+Text GLabel 6800 4700 2    39   Input ~ 0
+D12\MISO
+Text GLabel 6800 4800 2    39   Input ~ 0
+D6
+Text GLabel 6800 4900 2    39   Input ~ 0
+D7
+Entry Wire Line
+	6500 4900 6400 5000
+Entry Wire Line
+	3200 4800 3300 4900
+Entry Wire Line
+	2800 4800 2900 4900
+Entry Bus Bus
+	2200 4700 2300 4800
+Entry Bus Bus
+	3900 4800 4000 4700
+Text Label 3600 3400 0    39   ~ 0
+PA23
+Text Label 3600 2000 0    39   ~ 0
+PB23
+Text Label 3600 2100 0    39   ~ 0
+PB22
+Text Label 3600 2200 0    39   ~ 0
+PB11
+Text Label 3600 2300 0    39   ~ 0
+PB10
+Text Label 3600 2400 0    39   ~ 0
+PB09
+Text Label 3600 2500 0    39   ~ 0
+PB08
+Text Label 3600 2600 0    39   ~ 0
+PB03
+Text Label 3600 2700 0    39   ~ 0
+PB02
+Text Label 3600 2800 0    39   ~ 0
+SWDIO
+Text Label 3600 2900 0    39   ~ 0
+SWCLK
+Text Label 3600 3000 0    39   ~ 0
+USB_EN
+Text Label 3600 3100 0    39   ~ 0
+PA27
+Text Label 3600 3500 0    39   ~ 0
+PA22
+Wire Wire Line
+	3900 2000 3600 2000
+Wire Wire Line
+	3900 2100 3600 2100
+Wire Wire Line
+	3900 2200 3600 2200
+Wire Wire Line
+	3900 2300 3600 2300
+Wire Wire Line
+	3900 2400 3600 2400
+Wire Wire Line
+	3900 2500 3600 2500
+Wire Wire Line
+	3900 2600 3600 2600
+Wire Wire Line
+	3900 2700 3600 2700
+Wire Wire Line
+	3900 2800 3600 2800
+Wire Wire Line
+	3900 2900 3600 2900
+Wire Wire Line
+	3900 3000 3600 3000
+Wire Wire Line
+	3900 3100 3600 3100
+Wire Wire Line
+	3600 3200 3900 3200
+Wire Wire Line
+	3600 3300 3900 3300
+Wire Wire Line
+	3600 3400 3900 3400
+Wire Wire Line
+	3600 3500 3900 3500
+Entry Wire Line
+	3900 3500 4000 3400
+Entry Wire Line
+	3900 3400 4000 3300
+Entry Wire Line
+	3900 3300 4000 3200
+Entry Wire Line
+	3900 3200 4000 3100
+Entry Wire Line
+	3900 3100 4000 3000
+Entry Wire Line
+	3900 3000 4000 2900
+Entry Wire Line
+	3900 2900 4000 2800
+Entry Wire Line
+	3900 2800 4000 2700
+Entry Wire Line
+	3900 2700 4000 2600
+Entry Wire Line
+	3900 2600 4000 2500
+Entry Wire Line
+	3900 2500 4000 2400
+Entry Wire Line
+	3900 2400 4000 2300
+Entry Wire Line
+	3900 2300 4000 2200
+Entry Wire Line
+	3900 2200 4000 2100
+Entry Wire Line
+	3900 2100 4000 2000
+Entry Wire Line
+	3900 2000 4000 1900
+Text Label 6800 5200 2    39   ~ 0
+PB09
+Text Label 6800 5300 2    39   ~ 0
+PB08
+Text Label 6800 5500 2    39   ~ 0
+PB02
+Text Label 6800 5800 2    39   ~ 0
+USB_EN
+Wire Wire Line
+	6500 5200 6800 5200
+Wire Wire Line
+	6500 5300 6800 5300
+Wire Wire Line
+	6500 5500 6800 5500
+Entry Wire Line
+	6500 6100 6400 6000
+Entry Wire Line
+	6500 6000 6400 5900
+Entry Wire Line
+	6500 5800 6400 5700
+Entry Wire Line
+	6500 5500 6400 5400
+Entry Wire Line
+	6500 5300 6400 5200
+Entry Wire Line
+	6500 5200 6400 5100
+Entry Bus Bus
+	6300 6400 6400 6300
+Entry Bus Bus
+	3900 6300 4000 6400
+Wire Bus Line
+	4000 6400 6300 6400
+Text Label 6800 6100 2    39   ~ 0
+DN
+Text Label 6800 6000 2    39   ~ 0
+DP
+Wire Wire Line
+	6500 5800 7100 5800
+Wire Wire Line
+	6500 6000 7100 6000
+Wire Wire Line
+	6500 6100 7100 6100
+Text GLabel 6800 5500 2    39   Input ~ 0
+A5
+Text GLabel 6800 5300 2    39   Input ~ 0
+A1
+Text GLabel 6800 5200 2    39   Input ~ 0
+A2
+Wire Wire Line
+	5700 1500 5700 1900
+Wire Wire Line
+	5100 1900 5350 1900
+Wire Wire Line
+	5650 1900 5700 1900
+Wire Bus Line
+	3900 6300 3900 4800
+Text Label 1900 4300 0    39   ~ 0
+RST
+$Comp
+L Device:C C26
+U 1 1 608D6218
+P 6800 1900
+F 0 "C26" V 6600 2000 50  0000 L CNN
+F 1 "22uF" V 6700 2000 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6838 1750 50  0001 C CNN
+F 3 "~" H 6800 1900 50  0001 C CNN
+F 4 "CL10A226MQ8NRNC" H 6800 1900 50  0001 C CNN "PN"
+	1    6800 1900
+	0    1    1    0   
+$EndComp
+$Comp
+L DuetWifi-cache:GND #PWR0141
+U 1 1 6090B84B
+P 6950 1950
+F 0 "#PWR0141" H 6950 1700 50  0001 C CNN
+F 1 "GND" H 6955 1777 50  0000 C CNN
+F 2 "" H 6950 1950 50  0001 C CNN
+F 3 "" H 6950 1950 50  0001 C CNN
+	1    6950 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 1950 6950 1900
+Wire Wire Line
+	6650 1900 6600 1900
+Wire Bus Line
+	2300 4800 3900 4800
+Wire Bus Line
+	4000 1900 4000 4700
+Wire Bus Line
+	2200 2400 2200 4700
+Wire Bus Line
+	6400 3300 6400 6300
+$EndSCHEMATC

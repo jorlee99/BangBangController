@@ -1,0 +1,603 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:Barrel_Jack J?
+U 1 1 5FABE30A
+P 3165 2525
+AR Path="/5F7F862E/5FABE30A" Ref="J?"  Part="1" 
+AR Path="/5FAB490C/5FABE30A" Ref="J?"  Part="1" 
+F 0 "J?" H 3222 2850 50  0000 C CNN
+F 1 "Barrel_Jack" H 3222 2759 50  0000 C CNN
+F 2 "" H 3215 2485 50  0001 C CNN
+F 3 "~" H 3215 2485 50  0001 C CNN
+	1    3165 2525
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3465 2425 3560 2425
+$Comp
+L power:Earth #PWR?
+U 1 1 5FABE311
+P 3560 2425
+AR Path="/5F7F862E/5FABE311" Ref="#PWR?"  Part="1" 
+AR Path="/5FAB490C/5FABE311" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3560 2175 50  0001 C CNN
+F 1 "Earth" H 3560 2275 50  0001 C CNN
+F 2 "" H 3560 2425 50  0001 C CNN
+F 3 "~" H 3560 2425 50  0001 C CNN
+	1    3560 2425
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3465 2625 3725 2625
+Wire Wire Line
+	3725 2625 3725 2195
+Wire Wire Line
+	3725 2195 3765 2195
+Text GLabel 3765 2195 2    98   Input ~ 0
+PWRIN
+Wire Wire Line
+	3725 2625 3870 2625
+Connection ~ 3725 2625
+$Comp
+L Device:D_Zener D?
+U 1 1 5FABE31D
+P 4020 2625
+AR Path="/5F7F862E/5FABE31D" Ref="D?"  Part="1" 
+AR Path="/5FAB490C/5FABE31D" Ref="D?"  Part="1" 
+F 0 "D?" H 4020 2408 50  0000 C CNN
+F 1 "D_Zener" H 4020 2499 50  0000 C CNN
+F 2 "" H 4020 2625 50  0001 C CNN
+F 3 "~" H 4020 2625 50  0001 C CNN
+	1    4020 2625
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4170 2625 4170 2370
+Wire Wire Line
+	4170 2370 4335 2370
+Text GLabel 4335 2370 2    98   Input ~ 0
+VIN_SW
+Wire Wire Line
+	4170 2625 4170 2815
+Connection ~ 4170 2625
+$Comp
+L Device:R R?
+U 1 1 5FABE328
+P 4170 2965
+AR Path="/5F7F862E/5FABE328" Ref="R?"  Part="1" 
+AR Path="/5FAB490C/5FABE328" Ref="R?"  Part="1" 
+F 0 "R?" H 4240 3011 50  0000 L CNN
+F 1 "R" H 4240 2920 50  0000 L CNN
+F 2 "" V 4100 2965 50  0001 C CNN
+F 3 "~" H 4170 2965 50  0001 C CNN
+	1    4170 2965
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FABE32E
+P 4170 3325
+AR Path="/5F7F862E/5FABE32E" Ref="R?"  Part="1" 
+AR Path="/5FAB490C/5FABE32E" Ref="R?"  Part="1" 
+F 0 "R?" H 4240 3371 50  0000 L CNN
+F 1 "R" H 4240 3280 50  0000 L CNN
+F 2 "" V 4100 3325 50  0001 C CNN
+F 3 "~" H 4170 3325 50  0001 C CNN
+	1    4170 3325
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4170 3115 4170 3145
+Wire Wire Line
+	4170 3475 4170 3540
+$Comp
+L power:Earth #PWR?
+U 1 1 5FABE336
+P 4170 3540
+AR Path="/5F7F862E/5FABE336" Ref="#PWR?"  Part="1" 
+AR Path="/5FAB490C/5FABE336" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4170 3290 50  0001 C CNN
+F 1 "Earth" H 4170 3390 50  0001 C CNN
+F 2 "" H 4170 3540 50  0001 C CNN
+F 3 "~" H 4170 3540 50  0001 C CNN
+	1    4170 3540
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4170 3145 4585 3145
+Connection ~ 4170 3145
+Wire Wire Line
+	4170 3145 4170 3175
+$Comp
+L dk_Transistors-FETs-MOSFETs-Single:AO3401A Q?
+U 1 1 5FABE348
+P 4885 3045
+AR Path="/5F7F862E/5FABE348" Ref="Q?"  Part="1" 
+AR Path="/5FAB490C/5FABE348" Ref="Q?"  Part="1" 
+F 0 "Q?" H 4993 3098 60  0000 L CNN
+F 1 "AO3401A" H 4993 2992 60  0000 L CNN
+F 2 "arduino:p-mosfet" H 5085 3245 60  0001 L CNN
+F 3 "http://aosmd.com/res/data_sheets/AO3401A.pdf" H 5085 3345 60  0001 L CNN
+F 4 "785-1001-1-ND" H 5085 3445 60  0001 L CNN "Digi-Key_PN"
+F 5 "AO3401A" H 5085 3545 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 5085 3645 60  0001 L CNN "Category"
+F 7 "Transistors - FETs, MOSFETs - Single" H 5085 3745 60  0001 L CNN "Family"
+F 8 "http://aosmd.com/res/data_sheets/AO3401A.pdf" H 5085 3845 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/alpha-omega-semiconductor-inc/AO3401A/785-1001-1-ND/1855943" H 5085 3945 60  0001 L CNN "DK_Detail_Page"
+F 10 "MOSFET P-CH 30V 4A SOT23" H 5085 4045 60  0001 L CNN "Description"
+F 11 "Alpha & Omega Semiconductor Inc." H 5085 4145 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 5085 4245 60  0001 L CNN "Status"
+	1    4885 3045
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4885 3245 4885 3410
+Wire Wire Line
+	4885 3410 5020 3410
+$Comp
+L power:+5V #PWR?
+U 1 1 5FABE350
+P 5020 3410
+AR Path="/5F7F862E/5FABE350" Ref="#PWR?"  Part="1" 
+AR Path="/5FAB490C/5FABE350" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5020 3260 50  0001 C CNN
+F 1 "+5V" H 5035 3583 50  0000 C CNN
+F 2 "" H 5020 3410 50  0001 C CNN
+F 3 "" H 5020 3410 50  0001 C CNN
+	1    5020 3410
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4885 2845 4885 2765
+Wire Wire Line
+	4885 2765 4990 2765
+Text GLabel 4990 2765 2    98   Input ~ 0
+VCC_USB
+$Comp
+L Device:C C?
+U 1 1 5FABE359
+P 5825 2775
+AR Path="/5F7F862E/5FABE359" Ref="C?"  Part="1" 
+AR Path="/5FAB490C/5FABE359" Ref="C?"  Part="1" 
+F 0 "C?" H 5940 2821 50  0000 L CNN
+F 1 "47uF" H 5940 2730 50  0000 L CNN
+F 2 "" H 5863 2625 50  0001 C CNN
+F 3 "~" H 5825 2775 50  0001 C CNN
+	1    5825 2775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4170 2625 5825 2625
+Wire Wire Line
+	5825 2925 5825 2975
+$Comp
+L power:Earth #PWR?
+U 1 1 5FABE361
+P 5825 2975
+AR Path="/5F7F862E/5FABE361" Ref="#PWR?"  Part="1" 
+AR Path="/5FAB490C/5FABE361" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5825 2725 50  0001 C CNN
+F 1 "Earth" H 5825 2825 50  0001 C CNN
+F 2 "" H 5825 2975 50  0001 C CNN
+F 3 "~" H 5825 2975 50  0001 C CNN
+	1    5825 2975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5825 2625 6305 2625
+Connection ~ 5825 2625
+$Comp
+L Device:R R?
+U 1 1 5FABE369
+P 6305 2775
+AR Path="/5F7F862E/5FABE369" Ref="R?"  Part="1" 
+AR Path="/5FAB490C/5FABE369" Ref="R?"  Part="1" 
+F 0 "R?" H 6380 2875 50  0000 L CNN
+F 1 "52.3K" H 6370 2790 50  0000 L CNN
+F 2 "" V 6235 2775 50  0001 C CNN
+F 3 "~" H 6305 2775 50  0001 C CNN
+	1    6305 2775
+	1    0    0    -1  
+$EndComp
+$Comp
+L Regulator_Switching:LM2734Y U?
+U 1 1 5FABE36F
+P 7025 2725
+AR Path="/5F7F862E/5FABE36F" Ref="U?"  Part="1" 
+AR Path="/5FAB490C/5FABE36F" Ref="U?"  Part="1" 
+F 0 "U?" H 7025 3092 50  0000 C CNN
+F 1 "LM2734Y" H 7025 3001 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:TSOT-23-6" H 7050 2475 50  0001 L CIN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2734.pdf" H 6925 2825 50  0001 C CNN
+	1    7025 2725
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6305 2625 6625 2625
+Connection ~ 6305 2625
+Wire Wire Line
+	6625 2825 6530 2825
+Wire Wire Line
+	6530 2825 6530 2925
+Wire Wire Line
+	6530 2925 6305 2925
+Wire Wire Line
+	7025 3025 7025 3105
+$Comp
+L power:Earth #PWR?
+U 1 1 5FABE37B
+P 7025 3105
+AR Path="/5F7F862E/5FABE37B" Ref="#PWR?"  Part="1" 
+AR Path="/5FAB490C/5FABE37B" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7025 2855 50  0001 C CNN
+F 1 "Earth" H 7025 2955 50  0001 C CNN
+F 2 "" H 7025 3105 50  0001 C CNN
+F 3 "~" H 7025 3105 50  0001 C CNN
+	1    7025 3105
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Zener D?
+U 1 1 5FABE381
+P 7825 2620
+AR Path="/5F7F862E/5FABE381" Ref="D?"  Part="1" 
+AR Path="/5FAB490C/5FABE381" Ref="D?"  Part="1" 
+F 0 "D?" H 7825 2837 50  0000 C CNN
+F 1 "D_Zener" H 7825 2746 50  0000 C CNN
+F 2 "" H 7825 2620 50  0001 C CNN
+F 3 "~" H 7825 2620 50  0001 C CNN
+	1    7825 2620
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FABE387
+P 7565 2660
+AR Path="/5F7F862E/5FABE387" Ref="C?"  Part="1" 
+AR Path="/5FAB490C/5FABE387" Ref="C?"  Part="1" 
+F 0 "C?" H 7455 2750 50  0000 L CNN
+F 1 "10nF" H 7580 2590 50  0000 L CNN
+F 2 "" H 7603 2510 50  0001 C CNN
+F 3 "~" H 7565 2660 50  0001 C CNN
+	1    7565 2660
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7425 2625 7425 2510
+Wire Wire Line
+	7425 2510 7565 2510
+Wire Wire Line
+	7425 2725 7425 2765
+Wire Wire Line
+	7425 2765 7535 2765
+Wire Wire Line
+	7535 2765 7535 2810
+Wire Wire Line
+	7535 2810 7565 2810
+Wire Wire Line
+	7565 2510 7675 2510
+Wire Wire Line
+	7675 2510 7675 2620
+Connection ~ 7565 2510
+Wire Wire Line
+	7425 2825 7425 3235
+Wire Wire Line
+	7975 2810 7975 2620
+$Comp
+L Device:R R?
+U 1 1 5FABE398
+P 7975 2960
+AR Path="/5F7F862E/5FABE398" Ref="R?"  Part="1" 
+AR Path="/5FAB490C/5FABE398" Ref="R?"  Part="1" 
+F 0 "R?" H 8045 3006 50  0000 L CNN
+F 1 "52.3K" H 8020 2920 50  0000 L CNN
+F 2 "" V 7905 2960 50  0001 C CNN
+F 3 "~" H 7975 2960 50  0001 C CNN
+	1    7975 2960
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7975 3235 7975 3110
+Wire Wire Line
+	7425 3235 7975 3235
+Wire Wire Line
+	7975 3235 7975 3270
+Connection ~ 7975 3235
+$Comp
+L Device:R R?
+U 1 1 5FABE3A2
+P 7975 3420
+AR Path="/5F7F862E/5FABE3A2" Ref="R?"  Part="1" 
+AR Path="/5FAB490C/5FABE3A2" Ref="R?"  Part="1" 
+F 0 "R?" H 8045 3466 50  0000 L CNN
+F 1 "52.3K" H 8015 3380 50  0000 L CNN
+F 2 "" V 7905 3420 50  0001 C CNN
+F 3 "~" H 7975 3420 50  0001 C CNN
+	1    7975 3420
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:L L?
+U 1 1 5FABE3A8
+P 8245 2770
+AR Path="/5F7F862E/5FABE3A8" Ref="L?"  Part="1" 
+AR Path="/5FAB490C/5FABE3A8" Ref="L?"  Part="1" 
+F 0 "L?" V 8435 2770 50  0000 C CNN
+F 1 "L" V 8344 2770 50  0000 C CNN
+F 2 "" H 8245 2770 50  0001 C CNN
+F 3 "~" H 8245 2770 50  0001 C CNN
+	1    8245 2770
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7565 2810 7855 2810
+Wire Wire Line
+	7855 2810 7855 2770
+Wire Wire Line
+	7855 2770 8090 2770
+Connection ~ 7565 2810
+Wire Wire Line
+	8090 2770 8090 2855
+Wire Wire Line
+	8090 2855 8255 2855
+Connection ~ 8090 2770
+Wire Wire Line
+	8090 2770 8095 2770
+Wire Wire Line
+	8255 2855 8255 3160
+$Comp
+L Device:D_Zener D?
+U 1 1 5FABE3B7
+P 8255 3310
+AR Path="/5F7F862E/5FABE3B7" Ref="D?"  Part="1" 
+AR Path="/5FAB490C/5FABE3B7" Ref="D?"  Part="1" 
+F 0 "D?" V 8209 3390 50  0000 L CNN
+F 1 "D_Zener" V 8300 3390 50  0000 L CNN
+F 2 "" H 8255 3310 50  0001 C CNN
+F 3 "~" H 8255 3310 50  0001 C CNN
+	1    8255 3310
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8255 3460 8255 3550
+Wire Wire Line
+	7975 3570 7975 3595
+$Comp
+L power:Earth #PWR?
+U 1 1 5FABE3BF
+P 7975 3595
+AR Path="/5F7F862E/5FABE3BF" Ref="#PWR?"  Part="1" 
+AR Path="/5FAB490C/5FABE3BF" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7975 3345 50  0001 C CNN
+F 1 "Earth" H 7975 3445 50  0001 C CNN
+F 2 "" H 7975 3595 50  0001 C CNN
+F 3 "~" H 7975 3595 50  0001 C CNN
+	1    7975 3595
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 5FABE3C5
+P 8255 3550
+AR Path="/5F7F862E/5FABE3C5" Ref="#PWR?"  Part="1" 
+AR Path="/5FAB490C/5FABE3C5" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8255 3300 50  0001 C CNN
+F 1 "Earth" H 8255 3400 50  0001 C CNN
+F 2 "" H 8255 3550 50  0001 C CNN
+F 3 "~" H 8255 3550 50  0001 C CNN
+	1    8255 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7975 2620 8395 2620
+Wire Wire Line
+	8395 2620 8395 2770
+Connection ~ 7975 2620
+Wire Wire Line
+	8395 2620 8395 2510
+Connection ~ 8395 2620
+$Comp
+L power:+5V #PWR?
+U 1 1 5FABE3D0
+P 8395 2510
+AR Path="/5F7F862E/5FABE3D0" Ref="#PWR?"  Part="1" 
+AR Path="/5FAB490C/5FABE3D0" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8395 2360 50  0001 C CNN
+F 1 "+5V" H 8410 2683 50  0000 C CNN
+F 2 "" H 8395 2510 50  0001 C CNN
+F 3 "" H 8395 2510 50  0001 C CNN
+	1    8395 2510
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FABE3D6
+P 8395 3000
+AR Path="/5F7F862E/5FABE3D6" Ref="C?"  Part="1" 
+AR Path="/5FAB490C/5FABE3D6" Ref="C?"  Part="1" 
+F 0 "C?" H 8510 3046 50  0000 L CNN
+F 1 "47uF" H 8510 2955 50  0000 L CNN
+F 2 "" H 8433 2850 50  0001 C CNN
+F 3 "~" H 8395 3000 50  0001 C CNN
+	1    8395 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8395 2770 8395 2850
+Connection ~ 8395 2770
+Wire Wire Line
+	8395 3150 8395 3195
+Wire Wire Line
+	8395 3195 8675 3195
+Wire Wire Line
+	8675 3195 8675 3215
+$Comp
+L power:Earth #PWR?
+U 1 1 5FABE3E1
+P 8675 3215
+AR Path="/5F7F862E/5FABE3E1" Ref="#PWR?"  Part="1" 
+AR Path="/5FAB490C/5FABE3E1" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8675 2965 50  0001 C CNN
+F 1 "Earth" H 8675 3065 50  0001 C CNN
+F 2 "" H 8675 3215 50  0001 C CNN
+F 3 "~" H 8675 3215 50  0001 C CNN
+	1    8675 3215
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8395 2620 8765 2620
+Wire Wire Line
+	8765 2620 8765 3745
+Wire Wire Line
+	8765 3745 6950 3745
+$Comp
+L Regulator_Linear:TC1262-33 U?
+U 1 1 5FABE3EA
+P 6650 3745
+AR Path="/5F7F862E/5FABE3EA" Ref="U?"  Part="1" 
+AR Path="/5FAB490C/5FABE3EA" Ref="U?"  Part="1" 
+F 0 "U?" H 6650 3894 50  0000 C CNN
+F 1 "TC1262-33" H 6650 3985 50  0000 C CNN
+F 2 "arduino:SOT-223_L6.5-W3.5-P2.30-LS7.0-BR" H 6650 3970 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21373C.pdf" H 6650 3445 50  0001 C CNN
+	1    6650 3745
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6350 3745 6205 3745
+Wire Wire Line
+	6650 3445 6650 3330
+$Comp
+L power:Earth #PWR?
+U 1 1 5FABE3F2
+P 6650 3330
+AR Path="/5F7F862E/5FABE3F2" Ref="#PWR?"  Part="1" 
+AR Path="/5FAB490C/5FABE3F2" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6650 3080 50  0001 C CNN
+F 1 "Earth" H 6650 3180 50  0001 C CNN
+F 2 "" H 6650 3330 50  0001 C CNN
+F 3 "~" H 6650 3330 50  0001 C CNN
+	1    6650 3330
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6205 3745 6205 3530
+Connection ~ 6205 3745
+Wire Wire Line
+	6205 3745 5910 3745
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5FABE3FB
+P 6205 3530
+AR Path="/5F7F862E/5FABE3FB" Ref="#PWR?"  Part="1" 
+AR Path="/5FAB490C/5FABE3FB" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6205 3380 50  0001 C CNN
+F 1 "+3.3V" H 6220 3703 50  0000 C CNN
+F 2 "" H 6205 3530 50  0001 C CNN
+F 3 "" H 6205 3530 50  0001 C CNN
+	1    6205 3530
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6205 3745 6205 3820
+$Comp
+L Device:C C?
+U 1 1 5FABE402
+P 6205 3970
+AR Path="/5F7F862E/5FABE402" Ref="C?"  Part="1" 
+AR Path="/5FAB490C/5FABE402" Ref="C?"  Part="1" 
+F 0 "C?" H 6320 4016 50  0000 L CNN
+F 1 "C" H 6320 3925 50  0000 L CNN
+F 2 "" H 6243 3820 50  0001 C CNN
+F 3 "~" H 6205 3970 50  0001 C CNN
+	1    6205 3970
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6205 4120 6205 4160
+$Comp
+L power:Earth #PWR?
+U 1 1 5FABE409
+P 6205 4160
+AR Path="/5F7F862E/5FABE409" Ref="#PWR?"  Part="1" 
+AR Path="/5FAB490C/5FABE409" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6205 3910 50  0001 C CNN
+F 1 "Earth" H 6205 4010 50  0001 C CNN
+F 2 "" H 6205 4160 50  0001 C CNN
+F 3 "~" H 6205 4160 50  0001 C CNN
+	1    6205 4160
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FABE40F
+P 5910 3920
+AR Path="/5F7F862E/5FABE40F" Ref="R?"  Part="1" 
+AR Path="/5FAB490C/5FABE40F" Ref="R?"  Part="1" 
+F 0 "R?" H 5675 3985 50  0000 L CNN
+F 1 "52.3K" H 5635 3865 50  0000 L CNN
+F 2 "" V 5840 3920 50  0001 C CNN
+F 3 "~" H 5910 3920 50  0001 C CNN
+	1    5910 3920
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5910 3745 5910 3770
+Wire Wire Line
+	5910 4070 5910 4100
+Wire Wire Line
+	5910 4100 5435 4100
+Wire Wire Line
+	4345 4100 4345 4210
+$Comp
+L Device:R R?
+U 1 1 5FABE419
+P 4345 4360
+AR Path="/5F7F862E/5FABE419" Ref="R?"  Part="1" 
+AR Path="/5FAB490C/5FABE419" Ref="R?"  Part="1" 
+F 0 "R?" H 4415 4406 50  0000 L CNN
+F 1 "52.3K" H 4415 4335 50  0000 L CNN
+F 2 "" V 4275 4360 50  0001 C CNN
+F 3 "~" H 4345 4360 50  0001 C CNN
+	1    4345 4360
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4345 4510 4345 4560
+$Comp
+L power:Earth #PWR?
+U 1 1 5FABE420
+P 4345 4560
+AR Path="/5F7F862E/5FABE420" Ref="#PWR?"  Part="1" 
+AR Path="/5FAB490C/5FABE420" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4345 4310 50  0001 C CNN
+F 1 "Earth" H 4345 4410 50  0001 C CNN
+F 2 "" H 4345 4560 50  0001 C CNN
+F 3 "~" H 4345 4560 50  0001 C CNN
+	1    4345 4560
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5435 4100 5435 3890
+Wire Wire Line
+	5435 3890 5415 3890
+Connection ~ 5435 4100
+Wire Wire Line
+	5435 4100 4345 4100
+Text GLabel 5415 3890 0    98   Input ~ 0
+EDBG_ADC0
+$EndSCHEMATC

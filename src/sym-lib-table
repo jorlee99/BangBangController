@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name BangBangController-rescue)(type Legacy)(uri ${KIPRJMOD}/BangBangController-rescue.lib)(options "")(descr ""))
+)
